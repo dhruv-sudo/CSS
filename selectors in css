@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors oin CSS</title>
+    <style>
+        div{
+            background-color: red;
+        }
+        /*This is the class selecctors in css*/
+        .red{
+            background-color: blue;
+        }
+        /*This is the ID selecctors in css*/
+        #green{
+            background-color: rgb(35, 189, 181);
+        }
+        /*This is the use case of the universal selector */
+           *{ 
+            margin: 0;
+            padding:0;
+        }
+        /* use of the  pseudo selectors in css */
+        a:active{
+            background-color: blueviolet;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        /* use of the descendent selectors in css */
+
+        div p{
+            background-color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        This is the div;
+    </div>
+
+    <!--This is the class selecctors in css-->
+    <div class="red">
+        This is the another div;
+    </div>
+
+    <div id="green">
+        This is the one another div;
+    </div>
+    <a href="https://www.google.com/">open Google</a>
+
+    <div>
+        <article>
+            <p>This is the last div used for the descendent selectorsin css</p>
+
+            </article>
+    </div>
+</body>
+</html>
