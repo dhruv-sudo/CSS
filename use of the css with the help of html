@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting of the css</title>
+    <style>
+        div,span{
+            color:rgb(17, 0, 255);
+           
+        }
+        body{
+            background-color: rgb(12, 243, 243);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Hey!I Am Dhruv Choudhary today I started my CSS journey
+    </div>
+    <div>
+        today i feel good!!<br/>
+        i am happy
+    </div>
+
+    <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, dolores nobis qui minus labore sequi laborum tempora enim quia culpa maiores, dolore quas sit! Necessitatibus numquam velit beatae nihil aut molestias enim adipisci laudantium cum totam laboriosam, mollitia exercitationem maiores animi saepe suscipit, quia tempora.
+    </span>
+</body>
+</html>
