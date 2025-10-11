@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Properties of the fonts,texts</title>
+
+    <!--This is the code for the poppins fonts which is extract from the google fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--This is the starting of the Internal CSS code-->
+    <style>
+        body{
+            line-height: 2;
+        }
+
+        .para1{
+            background-color: blue;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 400;
+            font-style:italic;
+            text-decoration: underline;
+            
+        }
+        .para2{
+            text-align:center;
+            text-decoration: underline;
+            text-decoration-color: rgb(252, 166, 7);
+            text-decoration-thickness: 7px;
+            text-overflow: ellipsis;
+            text-transform: uppercase;
+        }
+     
+    </style>
+</head>
+<body>
+    <!--This is te starting the code of the html-->
+    <h1>This is The starting of the code</h1>
+
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat accusantium maxime accusamus debitis facilis fugit ab suscipit deserunt esse quisquam. Amet provident, mollitia aut dicta exercitationem placeat fuga natus voluptatem consequuntur consequatur veniam modi, reiciendis rem? Illo provident vitae ea. Illo, dicta quaerat! Nam, officia.</p>
+
+    <p class="para2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore sequi quis culpa fuga similique possimus natus beatae sunt, laudantium eaque animi voluptatum hic autem repudiandae voluptate quaerat! Saepe, soluta consectetur beatae illo animi in non aperiam, distinctio harum laborum nobis nemo expedita minus aspernatur optio magnam laboriosam labore error. Quibusdam beatae nam eius? A perferendis saepe, sequi quasi illo explicabo maxime minima magni illum ipsa praesentium eum architecto repellat quia id optio soluta, earum odio reprehenderit. Ex iure labore quia rem, nesciunt excepturi? Quaerat maxime saepe facere sit, corporis perferendis enim architecto tempore velit voluptatibus. Minus, sint sapiente. Repellat impedit laudantium quasi expedita earum recusandae dignissimos. Cupiditate, sit, in commodi quae officiis perspiciatis atque doloribus similique dicta pariatur non nisi maxime. Sequi quod ab culpa est aperiam suscipit ullam, reiciendis deleniti ut aspernatur alias assumenda atque, odit molestias? Alias provident qui, cum sapiente quos eveniet.</p>
+    
+
+    
+</body>
+</html>
