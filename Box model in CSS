@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model in css</title>
+    <style>
+        /* *{Use of the universal selector-to remopve the extra gap between the div box1 in the given problem  */
+            *{
+            margin: 0;
+            padding: 0;
+        }
+        /*Use o0f trhe class selector  in css*/
+        .box{
+            background-color:rgb(252, 238, 221)
+
+        }
+       .box1{
+        background-color: rgb(62, 62, 226);
+        padding: 10px;
+        margin: 35px;
+        border: 5px solid black;
+        height: 200px;
+        box-sizing: border-box;
+       } 
+
+       .box2{
+        background-color: rgb(18, 240, 103);
+        padding: 10px;
+        margin: 25px;
+        border: 5px solid rgb(207, 37, 37);
+        height: 200px;
+        box-sizing: border-box;
+       } 
+    </style>
+</head>
+
+<body>
+    <div class="box box1">This is the box1</div>
+    <div class="box box2">This is the box2</div>
+    
+</body>
+</html>
